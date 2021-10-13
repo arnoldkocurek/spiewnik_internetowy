@@ -1,3 +1,7 @@
+@font-face{
+  font-family: Redhat;
+  src: url(RedHatDisplay-Bold.ttf);
+}
 * {
   padding: 0%;
   margin: 0%;
@@ -5,17 +9,74 @@
 }
 header {
   display: flex;
-  justify-content: center;
+  background-color: #262524;
 }
 #logo {
   float: left;
+  margin-left: 20%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   flex-basis: 20%;
+  width: 20%;
+  
 }
 nav {
+  display: flex;
   flex-basis: 80%;
-  display: inline-block;
+  width: 80%;
+  justify-content: center;
+  align-items: baseline;
+  align-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  
 }
 ul {
   display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  width: 100%;
+  
 }
-s
+
+li a{
+  color: white;
+  text-decoration: none;
+  align-items: center;
+font-family: redhat;
+font-size: 30px;
+border: 20px solid #262524;
+  border-radius: 20px;
+}
+#napis_logo{
+  color: white;
+  font-family: Redhat;
+  font-size: 50px;
+  
+}
+#div_logo{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+li a:hover{
+  border: 20px solid #4D02AD;
+  border-radius: 20px;
+  background-color: #4D02AD;
+}
+
+@keyframes przyciemnianie{
+  0% {filter: brightness(100%);}
+  100% {filter: brightness(50%);}
+}
+#tlo{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    animation-name: przyciemnianie;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+#powitanie{
+  
+}
