@@ -71,7 +71,7 @@ li a {
 }
 
 li a:hover {
-  border: 20px solid #4d02ad;
+  border: 20px solid #  ;
   border-radius: 20px;
   background-color: #4d02ad;
 }
@@ -173,7 +173,7 @@ footer {
   margin-left: 0%;
   margin-right: 0%;
   width: 100%;
-  top: 30%;
+  top: 20%;
 }
 
 #formularz_kontaktowy h1 {
@@ -223,9 +223,29 @@ footer {
 #temat {
   width: 100%;
 }
-#kontakt-tresc {
-  height: 10vh;
+#kontakt-tresc textarea{
+  height: 30vh;
 }
 #kontakt-tresc-tresc {
-  width: 80%;
+  width: 60%;
+  font-size: 0.7em;
+}
+#kontakt-wyslij {
+display: flex;
+justify-content: center;
+  background-color: #bd90f8;
+  color: white;
+  border: none;
+  padding: 0.5em;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 2%;
+  font-size: 1em;
+  padding-bottom: 1.7em;
+  align-items: baseline;
+}
+
+#kontakt-wyslij:hover {
+  background-color: #4d02ad;
+  color: white;
 }
