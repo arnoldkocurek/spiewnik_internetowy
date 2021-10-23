@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="grafika/logo.png" type="image/x-icon" />
+    <title>Śpiewaj i Graj!</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" id="div_logo"
+        ><img id="logo" src="grafika/logo.png" alt="logo"
+      /></a>
+      <a id="napis_logo" href="index.html">Śpiewaj i graj!</a>
+      <nav>
+        <ul>
+          <li><a href="dodaj_tekst.html">Dodaj tekst</a></li>
+          <li><a href="szukaj_tekst.html">Szukaj tekst</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <img id="tlo" src="grafika/tlo.jpg" />
+
+    <div id="formularz_kontaktowy">
+      <h1>FORMULARZ KONTAKTOWY</h1>
+      <br /><br />
+      <form action="kontakt.html">
+        <div id="kontakt-imie-nazwisko">
+          <div id="kontakt-imie">
+            <label for="imie">Imię: </label>
+            <input
+              type="text"
+              id="imie"
+              name="imie"
+              placeholder="Twoje imie..."
+            />
+          </div>
+          <div id="kontakt-nazwisko">
+            <label for="imie">Nazwisko: </label>
+            <input
+              type="text"
+              id="imie"
+              name="imie"
+              placeholder="Twoje imie..."
+            />
+          </div>
+        </div>
+        <br />
+        <div id="kontakt-mail-temat">
+          <div id="kontakt-mail">
+            <label for="mail">E-mail: </label>
+            <input
+              type="text"
+              id="mail"
+              name="mail"
+              placeholder="Twój adres e-mail"
+            />
+          </div>
+          <div id="kontakt-temat">
+            <label for="temat">Temat: </label>
+            <select name="temat" id="temat">
+              <option value="reklama">REKLAMA</option>
+              <option value="wspolpraca">WSPÓŁPRACA</option>
+              <option value="wspolpraca">BŁĄD W SERWISIE</option>
+              <option value="wspolpraca">NARUSZENIE ZASAD</option>
+              <option value="wspolpraca">INNE</option>
+            </select>
+          </div>
+        </div>
+        </br>
+            <div id="kontakt-tresc">
+
+            <input type="text" id="kontakt-tresc-tresc">
+        </div>
+        
+      </form>
+    </div>
+
+    <footer>COPYRIGHT COPRYIGHT BY ARNOLD KOCUREK</footer>
+  </body>
+</html>
