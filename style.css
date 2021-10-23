@@ -192,10 +192,10 @@ footer {
   align-items: center;
 }
 #kontakt-imie {
-  margin-left: 30%;
+  margin-left: 20%;
 }
 #kontakt-nazwisko {
-  margin-right: 30%;
+  margin-right: 20%;
 }
 #kontakt-mail {
   margin-left: 20%;
@@ -203,7 +203,6 @@ footer {
 }
 #kontakt-temat {
   margin-right: 20%;
-  width: 15%;
 }
 
 #formularz_kontaktowy input {
